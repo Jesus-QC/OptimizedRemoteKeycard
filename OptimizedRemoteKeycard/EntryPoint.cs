@@ -6,7 +6,7 @@ namespace OptimizedRemoteKeyCard;
 
 public class EntryPoint : Plugin<PluginConfig>
 {
-    public const string OptimizedRemoteKeyCardVersion = "1.0.0.0";
+    public const string OptimizedRemoteKeyCardVersion = "1.0.0.1";
     
     public override string Author { get; } = "Jesus-QC";
     public override string Name { get; } = "OptimizedRemoteKeycard";

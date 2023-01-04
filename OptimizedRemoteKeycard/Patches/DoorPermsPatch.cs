@@ -11,7 +11,7 @@ using NorthwoodLib.Pools;
 
 namespace OptimizedRemoteKeyCard.Patches;
 
-[HarmonyPatch(typeof(DoorVariant), nameof(DoorVariant.ServerInteract))]
+[HarmonyPatch("InteractingDoor", "Prefix")]
 public class DoorPermsPatch
 {
     private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
